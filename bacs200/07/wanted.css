@@ -1,12 +1,12 @@
 * {
     border: dashed 1px blue;
     padding: 10px;
-    margin: 50px;
+    margin: 10px;
 }
 
 body {
-    border: solid 3px black;
-    background-color: gray;
+    border: solid 3px white;
+    background-color: black;
 }
 
 header {
@@ -17,6 +17,7 @@ header {
 footer {
     border: solid 3px grey;
     background-color: black;
+    text-align: center;
 }
 
 main {
@@ -26,10 +27,14 @@ main {
 
 h1{
     text-align: center;
+    font-family: "Courier Std", serif;
+    font-weight: bolder;
 }
 
 h2{
     text-align: center;
+    font-family: "Courier Std", serif;
+    font-weight: bolder;
 }
 
 a{
