@@ -41,6 +41,10 @@ h2{
     font-size: 100%;
 }
 
+img{
+    float: inherit;
+}
+
 ul{
     font-family: "Courier Std", serif;
     font-weight: bolder;
