@@ -1,0 +1,17 @@
+body{
+    background-color: dimgrey
+}
+
+h1{
+    color: darkblue;
+    background-color:crimson;
+    font-style: italic;
+    border-style: double;
+    border-width: thick;
+    border-color: black;
+}
+
+a{
+    color: aliceblue;
+    font-size: 120%;
+}
