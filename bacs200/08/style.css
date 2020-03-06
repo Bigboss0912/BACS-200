@@ -17,10 +17,16 @@ body{
 
 #left_logo{
     float: left;
+    position: relative;
+    top: -145px;
+    left: 20px;
 }
 
 #right_logo{
     float: right;
+    position: relative;
+    top: -145px;
+    right: 20px;
 }
 
 h1{
