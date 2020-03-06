@@ -42,6 +42,8 @@ h2{
 aside{
     border: 2px solid;
     text-align: left;
+    float: right;
+    padding: 20px;
     
 }
 
@@ -58,6 +60,8 @@ ul{
     font-weight: bolder;
     font-size: 70%;
     list-style-type: disc;
+    padding: 0px;
+    margin: 0px;
 }
 
 a{
