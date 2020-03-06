@@ -39,6 +39,16 @@ h2{
     font-size: 100%;
 }
 
+aside{
+    border: 2px solid;
+    text-align: left;
+    
+}
+
+#wanted{
+    text-align: left;
+}
+
 img{
     float: inherit;
 }
