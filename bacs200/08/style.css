@@ -66,6 +66,34 @@ table{
     color: dodgerblue;
 }
 
+nav {
+    margin: 10px;
+    float: left;
+    background-color: lightyellow;
+    box-shadow: 2px 2px 5px gray;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0em 1.5em;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 footer{
     text-align: center;
 }
