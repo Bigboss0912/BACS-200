@@ -48,7 +48,16 @@ a{
 
 ul{
     list-style: square;
-    color: lightskyblue;
+    color: dodgerblue;
+}
+
+ol{
+    list-style: square;
+    color: dodgerblue;
+}
+
+table{
+    color: dodgerblue;
 }
 
 footer{
