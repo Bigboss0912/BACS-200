@@ -37,7 +37,7 @@ h1{
     border-width: thick;
     border-color: black;
     text-align: center;
-    padding: 6px;
+    padding: 12px;
 }
 
 h2{
@@ -74,6 +74,8 @@ nav {
     background-color: black;
     box-shadow: 2px 2px 5px gray;
     text-align: center;
+    position: relative;
+    top: 8px;
 }
 
 nav ul {
