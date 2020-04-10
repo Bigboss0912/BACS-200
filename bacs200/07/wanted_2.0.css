@@ -43,11 +43,16 @@ aside{
     border: 2px solid;
     text-align: left;
     float: right;
+    padding-right: 300px;
     padding: 20px;
     
 }
 
 #wanted{
+    text-align: left;
+}
+
+#last_seen{
     text-align: left;
 }
 
