@@ -9,6 +9,7 @@
     <title>Home</title>
       
     <link href="stylesheets/modal_1.css" rel="stylesheet">
+    <link href="stylesheets/snackbarToast.css" rel="stylesheet">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/starter-template/">
       
@@ -86,7 +87,7 @@
       
       
       <!-- Trigger/Open The Modal -->
-<button id="myBtn">Hello! Click Me</button>
+<button id="myBtn" class="modalBtn">Hello! Click Me</button>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -94,7 +95,7 @@
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
-    <p>Hello! Welcome to my site.</p>
+    <p>Hello! Welcome to my site, hope you are having a wounderful day.</p>
   </div>
 
 </div>
@@ -158,6 +159,25 @@ window.onclick = function(event) {
       
     <p class="lead">For this project, I will be writing articles about my thoughts and philosophies on life. I have had many experiences in life and many opportunities to learn. So, I will be sharing my meditations.</p>
   </div>
+    
+    <h1></h1>
+    
+
+        <p class="snackbar_p">Below is a snackbar tool displaying an animation I made.</p>
+
+        <button onclick="myFunction()" class="snackbarBtn">Show Animation</button>
+
+        <div id="snackbar"><img src="images/Blob.gif" style="width:240px; height:240px" alt = "Blob"></div>
+
+        <script>
+        function myFunction() {
+          var x = document.getElementById("snackbar");
+          x.className = "show";
+          setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+        }
+        </script>
+    
+    <h1></h1>
     
     <h2>Below is a news feed from Yahoo News; so, you can stay informed.</h2>
     
