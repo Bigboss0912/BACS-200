@@ -10,6 +10,7 @@
       
     <link href="stylesheets/modal_1.css" rel="stylesheet">
     <link href="stylesheets/snackbarToast.css" rel="stylesheet">
+    <link href="stylesheets/accordian.css" rel="stylesheet">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/starter-template/">
       
@@ -157,13 +158,34 @@ window.onclick = function(event) {
           </a>
    </div>
       
-    <p class="lead">For this project, I will be writing articles about my thoughts and philosophies on life. I have had many experiences in life and many opportunities to learn. So, I will be sharing my meditations.</p>
+                  <button class="accordion">Project Goals</button>
+            <div class="panel">
+              <p>For this project, I will be writing articles about my thoughts and philosophies on life. I have had many experiences in life and many opportunities to learn. So, I will be sharing my meditations.</p>
+            </div>
+
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
+    
   </div>
     
     <h1></h1>
     
 
-        <p class="snackbar_p">Below is a snackbar tool displaying an animation I made.</p>
+        <p class="snackbar_p">Below is a snackbar tool displaying an animation I made for 3 seconds then disapear.</p>
 
         <button onclick="myFunction()" class="snackbarBtn">Show Animation</button>
 
